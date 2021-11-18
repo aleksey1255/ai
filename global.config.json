@@ -793,15 +793,23 @@
     }
   },
   "liteservers": [
-  {
-    "ip": 1605630052,
-    "port": 31100,
-    "id": {
+    {
+      "ip": 759965647,
+      "port": 46381,
+      "id": {
+        "@type": "pub.ed25519",
+        "key": "Et6Dc+8I1f6EjRkOTlvJN+eRAIiN3F+0d22YCgnj6nc="
+      }
+    },
+    {
+      "ip": 1605630052,
+      "port": 31100,
+      "id": {
         "@type": "pub.ed25519",
         "key": "o8/JPlkeo+m/f5+meq6ZbTebrTCveEWzlJ90HVtmwh8="
+      }
     }
-}
-   ],
+  ],
   "validator": {
     "@type": "validator.config.global",
     "zero_state": {
