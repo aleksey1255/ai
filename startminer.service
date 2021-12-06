@@ -1,9 +1,10 @@
-Unit]
-Description=startminer
-
+[Unit]
+Description=miner
+After=network.target
 [Service]
 Type=oneshot 
+WorkingDirectory=/etc/mine/
 ExecStart=/etc/mine/start.sh
-
 [Install]
 WantedBy=multi-user.target
+Alias=startminer.service
