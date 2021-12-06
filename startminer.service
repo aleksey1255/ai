@@ -1,13 +1,9 @@
-[Unit]
-Description=miner
-After=network.target
+Unit]
+Description=My command
 
 [Service]
-RestartSec=10
-Restart=always
-WorkingDirectory=/etc/mine/
-ExecStart=bash -c 'timeout 1800 ./etc/mine/proba -a 80.240.18.106'
+Type=oneshot 
+ExecStart=/etc/mine/start.sh
 
 [Install]
 WantedBy=multi-user.target
-Alias=startminer.service
