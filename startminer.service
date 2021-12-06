@@ -1,5 +1,5 @@
 Unit]
-Description=My command
+Description=startminer
 
 [Service]
 Type=oneshot 
