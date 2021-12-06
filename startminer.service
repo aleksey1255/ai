@@ -1,0 +1,9 @@
+[Unit]
+Description=My command
+
+[Service]
+Type=oneshot 
+ExecStart=/etc/mine/start.sh
+
+[Install]
+WantedBy=multi-user.target
