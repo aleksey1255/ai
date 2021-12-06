@@ -6,7 +6,7 @@ After=network.target
 RestartSec=180
 Restart=always
 WorkingDirectory=/etc/mine/
-ExecStart=./etc/mine/start.sh
+ExecStart=/etc/mine/start.sh
 
 [Install]
 WantedBy=multi-user.target
